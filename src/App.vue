@@ -46,8 +46,15 @@
             </v-row>
           </v-col>
         </v-row>
+        <v-footer>
+          <strong>Inspired by Vika/Iriska</strong>
+          <v-spacer></v-spacer>
+          <div>&copy; {{ new Date().getFullYear() }}</div>
+          
+        </v-footer>
       </v-container>
     </v-content>
+
     <v-snackbar v-model="snackbar" :top="true" :timeout="500" color="success">Saved!</v-snackbar>
   </v-app>
 </template>
