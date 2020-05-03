@@ -1,24 +1,7 @@
-# frontend
+# Simple app for adding notes
 
-## Project setup
-```
-npm install
-```
+## Made for practicing
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Data saves to localStorage
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

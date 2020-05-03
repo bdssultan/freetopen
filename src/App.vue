@@ -11,7 +11,7 @@
           </v-col>
           <v-col>
             <v-sheet width="800" height="600" elevation="3">
-              <textarea class="textspace" :maxlength="charPageLimit" v-model="currentPage"></textarea>
+              <textarea class="textspace" ng-trim="false" :maxlength="charPageLimit" v-model="currentPage"></textarea>
               <div id="the-count">
                 <span>{{pageIndex+1}}/{{pages.length}}</span>
               </div>
